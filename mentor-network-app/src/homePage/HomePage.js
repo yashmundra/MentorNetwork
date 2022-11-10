@@ -8,8 +8,7 @@ export default function HomePage(){
             <p>Title</p>
             <p>Title description</p>
             <button>Search for Mentors</button>
-            <button>Become a mentor</button>
-            
+            <button>Become a mentor</button>           
     </div>
     )
 }
