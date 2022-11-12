@@ -1,0 +1,11 @@
+.mentorDetailsContainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-self: center;
+}
+
+.chatButton {
+    justify-self: center;
+    width: 50px;
+    height: 3rem;
+}

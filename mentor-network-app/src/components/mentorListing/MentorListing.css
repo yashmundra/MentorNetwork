@@ -1,0 +1,7 @@
+.listingContainer {
+    display: grid;
+    grid-row-gap: 4rem;
+    grid-template-rows: auto;
+    margin: 50px;
+    padding: 50px;
+}

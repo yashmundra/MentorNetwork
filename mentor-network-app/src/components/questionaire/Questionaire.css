@@ -1,0 +1,21 @@
+.questionContainer {
+    display: grid;
+    background-color: aliceblue;
+    height: 40vh;
+}
+
+.question {
+    justify-self: center;
+    align-self: center;
+}
+
+.answerContainer {
+    display: grid;
+    background-color: aliceblue;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.answer {
+    height: 3rem;
+}
