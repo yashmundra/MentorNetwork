@@ -15,13 +15,13 @@ export default function MentorDetails(props){
     return (
         <Paper className="mentorDetailsContainer" elevation={3}>
             <div style={{justifySelf: 'center'}}>
-            <img alt="profile-selfie" src={Constants.PHOTO_URL} width='150px' height='150px'></img>
+            <img alt="profile-selfie" src={Constants.PHOTO_URL} width='100%' height='100%'></img>
             </div>
         
             <div>
-            <Typography variant="p">Yash Mundra</Typography><br></br>
-            <Typography variant="p">SDE, Amazon</Typography><br></br>
-            <Typography variant="p">Let's make you money</Typography>
+            <Typography variant="h5">Yash Mundra</Typography><br></br>
+            <Typography variant="h6">SDE, Amazon</Typography><br></br>
+            <Typography variant="h7">Let's make you money</Typography>
     
             
             </div>
